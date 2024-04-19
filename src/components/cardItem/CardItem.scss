@@ -1,0 +1,72 @@
+
+// .img-card{
+//     aspect-radio: 3/2;
+//     object-fit : cover;
+//     // mix-blend-mode: color-burn;
+// }
+.card:hover{
+    
+        transition: transform 0.5s ease;
+        transform: scale(0.9);
+        // transition: 1%;
+    
+}
+// .img-card:hover{
+//     transition: 1%;
+// }
+@media screen and (max-width: 768px) {
+    .card{
+        transform: scale(0.8);
+    }
+}
+// #CardDiv{
+//     margin: 10px;
+//     width: calc(100%/4);
+// }
+// @media screen and (min-width: 1300px) {
+//     // #CardDiv{
+//     //     width: 50%;
+//     //     height: 30%;
+//     // }
+//     // #CardDivItem{
+//     //     height: 100%;
+//     //     width: 100%;
+//     // }
+//     // .img-card{
+//     //     width: 350px;
+//     //     height: 75px ;
+//     // }
+//     // .NavUrl{
+//     //     width: 350px;
+//     //     height: 75px ;
+//     //     max-height: 75px;
+//     // }
+//     .card-title{
+//         font-size: 15px;
+//         height: 50px;
+//     }
+
+// }
+// @media screen and (max-width: 768px) {
+//     #CardDiv{
+//         width: 50%;
+//         height: 30%;
+//     }
+//     // #CardDivItem{
+//     //     height: 100%;
+//     //     width: 100%;
+//     // }
+//     // .img-card{
+//     //     width: 350px;
+//     //     height: 75px ;
+//     // }
+//     // .NavUrl{
+//     //     width: 350px;
+//     //     height: 75px ;
+//     //     max-height: 75px;
+//     // }
+//     .card-title{
+//         font-size: 10px;
+//         height: 30px;
+//     }
+// }
